@@ -10,3 +10,6 @@ print(facts["Bill"])
 
 facts["founded"] = 1776
 print(facts["founded"])
+
+del facts["code"]
+print(facts)
